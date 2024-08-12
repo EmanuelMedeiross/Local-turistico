@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#page {
+    width: 1120px;
+    margin: 88px auto;
+}
+ 
+/*Início Header*/
+#page header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 8px;
+}
+
+.center-italic {
+    text-align: center;
+    font-style: italic;
+    margin-top: 24px;
+}
+
+/*Início Main*/
+main {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#title-list h2 {
+    margin-bottom: 8px;
+}
+
+.bompara {
+    color: #333333;
+    font-weight: bold;
+    text-transform: initial;
+}
+
+main header p  {
+    margin-top: 48px;
+}
+
+.first-img {
+    margin-top: 64px;
+}
+
+main img {
+    margin-top: 48px;
+}
+
+p {
+    font-style: normal;
+    text-align: justify;
+    padding-right: 10px;
+}
+
+
+
+.line {
+    border: 0.8px solid #D9D9D9;
+    margin:40px 0 40px;
+}
+.first-line{
+    margin-bottom: 64px;
+}
+
+/* Definições gerais*/
+
+span {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #E1624F;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 20px 0 4px;
+}
+
+
+.list-point {
+    list-style: none;
+    font-size: 20px;
+}
+
+.list-point:before {
+    content:"·";
+    font-size:45px;
+    vertical-align: -40%;
+    line-height:20px;
+}
+
+ul li a{
+    font-weight: bold;
+    color: #0C51A7;
+}
+
+.red {
+    color: #E5245E;
+}
+
+.orange {
+    color: #E95E10;
+}
+
+#description{
+    text-align: center;
+}
+
+/* Início footer */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    margin: 65px 0 48px;
+
+}
+
+footer span {
+    font-family: "Alice", serif;
+    color: black;
+    line-height: 150%;
+    text-transform: initial;
+    font-weight: normal;
+}
+
